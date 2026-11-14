@@ -1,6 +1,6 @@
 {
-  "name": "@x3/dq-file",
-  "version": "1.0.0",
+  "name": "x3-dq-file",
+  "version": "1.0.1",
   "description": "Check a driver qualification file against 49 CFR 391.51: missing, late, expiring and overdue items, next due dates, qualified-to-drive, retention and purge.",
   "type": "module",
   "main": "dist/index.js",
@@ -49,5 +49,8 @@
   },
   "devDependencies": {
     "typescript": "^5.6.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

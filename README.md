@@ -9,13 +9,13 @@ Built and maintained by **[X3 Fleet Safety](https://x3fleetsafety.com)**.
 ## Install
 
 ```sh
-npm install github:x3allamerican/x3-dq-file
+npm install x3-dq-file
 ```
 
 ## Use
 
 ```ts
-import { checkDqFile, dueList } from '@x3/dq-file';
+import { checkDqFile, dueList } from 'x3-dq-file';
 
 const r = checkDqFile({
   driver: 'EMP-1001', hireDate: '2024-03-04', cdl: true,
